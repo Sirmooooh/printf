@@ -23,14 +23,14 @@ int (*f)();
 
 /* function prototypes */
 int _printf(const char *format, ...);
-int print_c(va_list args);
-int print_s(va_list args);
-int print_percent(va_list args);
-int print_i(va_list args);
-int print_d(va_list args);
-int print_b(va_list args);
+int print_c(unsigned long int num);
+int print_s(unsigned int num);
+int print_percent(va_list val);
+int print_i(va_list val);
+int print_d(va_list val);
+int print_b(va_list val);
 int print_u(va_list args);
-int print_o(va_list args);
+int print_o(va_list val);
 int print_x(va_list args);
 int print_X(va_list args);
 int print_S(va_list args);
