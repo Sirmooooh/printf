@@ -27,7 +27,7 @@ int print_percent(va_list val)
 				_putchar('0');
 				len++;
 			}
-			len = len + printf_HEX_aux(cast);
+			len = len + print_percent(cast);
 		}
 		else
 		{
