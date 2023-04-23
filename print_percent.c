@@ -2,7 +2,7 @@
 /**
  * print_percent - prints an exclusuives string.
  * @val: argument.
- * Return: the length of the string.
+ * Return: the length of the string
  */
 int print_percent(va_list val)
 {
