@@ -24,6 +24,6 @@ int print_pointer(va_list val)
 	a = (unsigned long int)p;
 	_putchar('0');
 	_putchar('x');
-	z = print_s(a);
+	z = printf("0x%lx", a);
 	return (z + 2);
 }
