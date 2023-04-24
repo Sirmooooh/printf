@@ -2,7 +2,7 @@
 
 /**
  * print_pointer - prints an hexgecimal number.
- * @val: arguments.
+ * @val: arguments
  * Return: counter.
  */
 int print_pointer(va_list val)
@@ -24,6 +24,6 @@ int print_pointer(va_list val)
 	a = (unsigned long int)p;
 	_putchar('0');
 	_putchar('x');
-	b = print_s(a);
+	z = print_s(a);
 	return (z + 2);
 }
