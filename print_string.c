@@ -1,4 +1,5 @@
-include "main.h"
+#include "main.h"
+
 /**
  * print_string - print a string.
  * @val: argumen t.
