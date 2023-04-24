@@ -83,5 +83,5 @@ int print_p(va_list args)
 		}
 	}
 	_putchar(lst + '0');
-	return (i);
+	return (q);
 }
