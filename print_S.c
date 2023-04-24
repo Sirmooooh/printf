@@ -2,7 +2,7 @@
 /**
  * print_S - prints integer
  * @args: argument to print
- * Return: number of characters printed
+ * Return: number of characters printed.
  */
 int print_S(va_list args)
 {
