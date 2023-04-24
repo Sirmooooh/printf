@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * print_pointer - prints an hexgecimal number.
- * @val: arguments.
+ * @val: arguments
  * Return: counter.
  */
 int print_pointer(va_list val)
