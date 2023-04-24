@@ -27,7 +27,7 @@ int print_percent(va_list val)
 				_putchar('0');
 				len++;
 			}
-			len = len + print_s(cast);
+			len = len + printf(cast);
 		}
 		else
 		{
