@@ -4,11 +4,11 @@
  * @format: identifier to look for.
  * Return: lenght
  */
-int _printf(const char * const format, ...)
+int _printf(const char *format, ...)
 {
 	convert_match m[] = {
 		{"%s", print_string}, {"%c", print_char},
-		{"%%", print_37},
+		{"%%", print_37},{"%X", print_s},
 		{"%i", print_S}, {"%d", print_p}, {"%r", print_x},
 		{"%R", print_X}, {"%b", print_o}, {"%u", print_u},
 		{"%o", print_b}, {"%x", print_d}, {"%X", print_i},
