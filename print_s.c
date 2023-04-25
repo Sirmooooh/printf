@@ -10,7 +10,7 @@ int print_s(unsigned int num)
 	int p, *array, counter = 0;
 	unsigned int temp = num;
 
-	for(counter = 1; num / 16 != 0; counter++)
+	for (counter = 1; num / 16 != 0; counter++)
 	{
 		num /= 16;
 	}
