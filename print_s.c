@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * printf_s - prints an hexgecimal number.
+ * print_s - prints an hexgecimal number.
  * @num: number to print.
  * Return: counter.
  */
-int printf_s(unsigned int num)
+int print_s(unsigned int num)
 {
 	int p, *array, counter = 0;
 	unsigned int temp = num;
